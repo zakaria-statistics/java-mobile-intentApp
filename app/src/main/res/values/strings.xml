@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IntentApp</string>
+    <string name="bjr">Bonjour</string>
+    <string name="text_view">Saisi vos information</string>
+    <string name="text2_view">TextView</string>
+    <string name="envyr">Envoyer</string>
+    <string name="text3_view">TextView</string>
+</resources>

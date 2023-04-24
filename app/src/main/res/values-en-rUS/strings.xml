@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IntentApp</string>
+    <string name="bjr">Welcome</string>
+    <string name="text3_view">Enter your inforamtions</string>
+    <string name="text_view">Username</string>
+    <string name="text2_view">Password</string>
+    <string name="envyr">Submit</string>
+</resources>

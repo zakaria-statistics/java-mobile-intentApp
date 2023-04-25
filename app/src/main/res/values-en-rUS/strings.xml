@@ -6,4 +6,5 @@
     <string name="text_view">Username</string>
     <string name="text2_view">Password</string>
     <string name="envyr">Submit</string>
+    <string name="text_view3">your informations:</string>
 </resources>

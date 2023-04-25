@@ -25,11 +25,11 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="108dp"
         android:text="@string/text_view"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="@+id/guideline" />
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
@@ -45,23 +45,23 @@
         android:id="@+id/editText"
         android:layout_width="120dp"
         android:layout_height="48dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginBottom="168dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="164dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="input"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
-        app:layout_constraintStart_toEndOf="@+id/textView" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="120dp"
         android:layout_height="48dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginBottom="104dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="100dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="input"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintStart_toEndOf="@+id/textView2" />
 
@@ -71,16 +71,17 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="92dp"
         android:layout_marginBottom="32dp"
+        android:onClick="submit"
         android:text="@string/envyr"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="172dp"
         android:text="@string/text3_view"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent" />

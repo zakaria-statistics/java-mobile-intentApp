@@ -2,9 +2,9 @@
 <resources>
     <string name="app_name">IntentApp</string>
     <string name="bjr">Welcome</string>
-    <string name="text3_view">Enter your inforamtions</string>
-    <string name="text_view">Username</string>
-    <string name="text2_view">Password</string>
+    <string name="text3_view">Username: </string>
+    <string name="text_view">Enter your inforamtions</string>
+    <string name="text2_view">Password: </string>
     <string name="envyr">Submit</string>
     <string name="text_view3">your informations:</string>
 </resources>

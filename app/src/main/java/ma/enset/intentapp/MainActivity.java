@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         TextView textViewPassword= findViewById(R.id.textView2);
         EditText editTextUsername= findViewById(R.id.editText);
         EditText editTextPassword= findViewById(R.id.editText2);
-
         Intent myIntent=new Intent(this, IntentActivity.class);
         Bundle bundle=new Bundle();
 

@@ -17,14 +17,14 @@ public class IntentActivity extends AppCompatActivity {
         TextView textView1= findViewById(R.id.textView4);
         TextView textView2= findViewById(R.id.textView5);
 
-        Bundle bundle= new Bundle();
+        Bundle bundle= getIntent().getExtras();
         String username= bundle.getString("editTextUsername");
         String password= bundle.getString("editTextPassword");
         String tvUsername= bundle.getString("textViewUsername");
         String tvPassword= bundle.getString("textViewPassword");
 
-        textView1.setText(tvUsername+username);
-        textView2.setText(tvPassword+password);
+        textView1.setText(tvUsername+" "+username);
+        textView2.setText(tvPassword+" "+password);
 
     }
     public void back(View view){

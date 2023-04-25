@@ -2,9 +2,11 @@ package ma.enset.intentapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.EditText;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -24,5 +26,7 @@ public class SplashScreen extends AppCompatActivity {
                 finish();
             }
         }, SPLASH_TIME_OUT);
+
+
     }
 }

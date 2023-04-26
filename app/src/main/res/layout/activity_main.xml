@@ -47,9 +47,7 @@
         android:layout_height="48dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="164dp"
-        android:ems="10"
         android:inputType="text"
-        android:text="input"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -59,9 +57,7 @@
         android:layout_height="48dp"
         android:layout_marginStart="84dp"
         android:layout_marginBottom="100dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="input"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintStart_toEndOf="@+id/textView2" />
 
